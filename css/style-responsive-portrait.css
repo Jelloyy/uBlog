@@ -1,0 +1,231 @@
+@media (max-width: 912px) and (orientation: portrait){
+    .header-menu{
+        height: 120px;
+    }
+    .header-menu>a{
+        margin-left: 70px;
+        font-size: 50px;
+    }
+    .credits{
+        flex-basis: 300px;
+    }
+    h1.name{
+        margin-left: 150px;
+    }
+    h1.surename{
+        margin-left: 150px;
+    }
+    h2.by{
+        margin-left: 160px;
+    }
+    .welcome-pg{
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .welcome-bg{
+        max-height: 100%;
+    }
+    .about{
+        margin-left: 100px;
+        flex-basis: 100px;
+        transform: translateY(-25%);
+    }
+    .avatar{
+        width: 550px;
+        border-radius: 50%;
+        box-shadow: 0 0 15px 2px;
+        opacity: 1;
+        margin-left: 150px;
+    }
+    div.blog-pg{
+        flex-direction: column;
+    }
+    article.blog-article{
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+    .responsive-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    img.blog-image{
+        width: 100%;
+    }
+    a.article-read-more{
+        position: inherit;
+        width: 200px;
+        margin-top: 30px;
+        padding: 20px;
+        font-size: 26px;
+    }
+    p.blog-dnt{
+        font-size: 20px;
+    }
+    p.article-title{
+        font-size: 40px;
+    }
+    p.article-description{
+        font-size: 28px;
+    }
+    div.about-img{
+        flex-basis: 500px;
+    }
+    div.about-me{
+        flex-basis: calc(100% - 500px);
+        padding: 10px;
+    }
+    img.photos{
+        width: 99%;
+    }
+    article.news{
+        width: 90%;
+    }
+}
+@media (max-width: 820px) and (orientation: portrait){
+    .header-menu{
+        width: 100%;
+    }
+    .header-menu>a{
+        margin-left: 50px;
+    }
+    .about{
+        margin-left: 50px;
+    }
+}
+@media (max-width: 768px) and (orientation: portrait){
+    .header-menu{
+        height: 80px;
+    }
+    .header-menu>a{
+        margin-left: 100px;
+        font-size: 30px;
+    }
+    .credits{
+        flex-basis: 300px;
+    }
+    h1.name{
+        font-size: 80px;
+    }
+    h1.surename{
+        font-size: 80px;
+        transform: translate(0%, -80px);
+    }
+    h2.by{
+        transform: translateY(-100px);
+        font-size: 30px;
+        margin-left: 160px;
+    }
+    .about{
+        margin-left: 80px;
+    }
+    .avatar{
+        width: 350px;
+        margin-left: 200px;
+    }
+    .about{
+        margin-left: 15px;
+    }
+    div.about-section{
+        flex-direction: column;
+    }
+    div.about-img{
+        flex-basis: 400px;
+    }
+    div.about-me{
+        flex-basis: calc(100% - 400px);
+        padding: 20px;
+    }
+}
+@media (max-width: 540px) and (orientation: portrait){
+    .header-menu>a{
+        font-size: 24px;
+        margin-left: 50px;
+    }
+    .credits{
+        flex-basis: 60px;
+        height: 210px;
+    }
+    h1.name{
+        font-size: 60px;
+        margin-left: 50px;
+    }
+    h1.surename{
+        font-size: 60px;
+        margin-left: 60px;
+    }
+    h2.by{
+        font-size: 20px;
+        margin-left: 50px;
+        transform: translateY(-90px);
+    }
+    .about{
+        margin-left: 80px;
+    }
+    .avatar{
+        width: 250px;
+        margin-left: 130px;
+        margin-top: 100px;
+
+    }
+    .about{
+        margin-left: 15px;
+        flex-basis: 350px;
+    }
+    .about>p{
+        font-size: 22px;
+        margin-left: 55px;
+    }
+    p.blog-dnt{
+        font-size: 16px;
+    }
+    p.article-title{
+        font-size: 30px;
+    }
+    p.article-description{
+        font-size: 18px;
+    }
+    div.contact{
+        width: 100vw;
+    }
+}
+@media (max-width: 414px) and (orientation: portrait){
+    .header-menu>a{
+        font-size: 24px;
+        margin-left: 30px;
+    }
+    .about{
+        margin-top: 100px;
+        margin-left: 0px;
+        flex-basis: 350px;
+    }
+    .avatar{
+        width: 300px;
+        margin-left: 50px;
+
+    }
+    .about>p{
+        font-size: 22px;
+        margin-left: 0;
+    }
+    div.date-and-time{
+        width: 250px;
+        height: 50px;
+        font-size: 16px;
+    }
+}
+@media (max-width: 375px) and (orientation: portrait){
+    .header-menu{
+        height: 60px;
+    }
+    .header-menu>a{
+        font-size: 18px;
+        margin-left: 30px;
+    }
+    .about{
+        margin-top: 50px;
+    }
+    .blog-article{
+        height: 900px;
+    }
+}
